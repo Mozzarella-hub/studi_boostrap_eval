@@ -14,7 +14,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/bootstrap-4.4.1-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/css/styles.css">
         <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
         <link rel="apple-touch-icon" sizes="152x152" href="../img/android-chrome-192x192.png">
         <link rel="apple-touch-icon" sizes="188x188" href="../img/android-chrome-192x192.png">
@@ -28,23 +28,29 @@
         1-MENU COLLAPSE LEFT 
         2-LOGO CENTER
                                 -->
-        <header class="">
+        <header class="container row fluid">
+            <img id="logo-header" class="col" src="../img/logo.png" alt="logo de l'association, bouton on-off, en dessous est écrit E-Sport Club Annonay entouré d'un heaxagone">
             <!-- Collaspse menu -->
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <h5 class="text-white h4">Collapsed content</h5>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-
-            <nav class="navbar navbar-dark bg-dark">
-                <img id="logo-header" class="" src="../img/logo.png" alt="logo de l'association, bouton on-off, en dessous est écrit E-Sport Club Annonay entouré d'un heaxagone">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-            </nav>
+            <ul class="nav nav-pills col d-flex justify-content-around "> 
+                <li class="nav-item ">
+                  <a class="nav-link" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+              </ul>
+                
+                
             
 
             
@@ -52,10 +58,10 @@
         </header>
 
 
-            <section class="">
-                    <article class="">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+            <section class="container fluid d-grid gap-3">
+                    <article class="d-flex justify-content-around ">
+                        <div class="card col" style="">
+                            <img src="../img/artcicle/pexels-mentatdgt-1254690.jpg" class="card-img-top img-fluid" alt="Le ministre chargé du digital, Ernest Moustachesolide avec un ordianateur portable">
                             <div class="card-body">
                             <h5 class="card-title">Visite du ministre chargé du digital, Ernest Moustachesolide</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -64,9 +70,9 @@
                         </div>
                     </article>
 
-                    <article class="">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                    <article class="d-flex justify-content-around grid">
+                        <div class="card col " style="">
+                            <img src="../img/artcicle/pexels-jessica-lewis-creative-3405456.jpg" class="card-img-top img-fluid" alt="un enfant essayant un casque vr dans ">
                             <div class="card-body">
                             <h5 class="card-title">L'ESCA à l'école</h5>
                             <p class="card-text">Utilisation et démonstration de la VR dans l'apprentissage.</p>
@@ -75,11 +81,11 @@
                         </div>
                     </article>
 
-                    <article class="">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                    <article class="d-flex justify-content-around ">
+                        <div class="card col" style="">
+                            <img src="../img/artcicle/pexels-rodnae-productions-7915245.jpg" class="card-img-top img-fluid" alt="notre joueur e-sport avec un coéquiper, devant leurs ordinateur">
                             <div class="card-body">
-                            <h5 class="card-title">Jésus peut marcher sur l'eau et aussi rouler sur l'OL esport dans la soirée</h5>
+                            <h5 class="card-title">Jésus peut marcher sur l'eau et rouler sur l'OL esport dans la soirée</h5>
                             <p class="card-text">Jésus marche sur l'eau et roule</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
@@ -88,13 +94,13 @@
             </section>
 
 
-            <aside class="" width="25%">
-                <div>
+            <aside class="" width="100%">
+                <div class="container fluid">
                     <h5 class="">Finale <strong>league of legend</strong></h5>
-                    <iframe name="Vidéo league of legend" width="560" height="315" src="https://www.youtube.com/embed/LLEfcQueqKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe name="Vidéo league of legend" width="100%" height="auto" src="https://www.youtube.com/embed/LLEfcQueqKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     
                     <h5 class=""><strong>FIFA meilleurs moments</strong> </h5>
-                    <iframe name="Vidéo youtube FIFA" width="560" height="315" src="https://www.youtube.com/embed/3pG4iRV0B1U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe name="Vidéo youtube FIFA" width="100%" height="auto" src="https://www.youtube.com/embed/3pG4iRV0B1U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </aside>
         
@@ -102,6 +108,7 @@
             <footer class="">
                 <ul class="list-group list-group-flush">
                     <a href="FAQ.html"><li class="list-group-item">F.A.Q</li></a>
+                    <a href="Nous.html"><li class="list-group-item">Qui sommes nous ?</li></a>
                     <a href="event.html"><li class="list-group-item">Evénements</li></a>
                     <a href="don.html"><li class="list-group-item">Nous faire un don</li></a>
                     <a href="sponsors.html"><li class="list-group-item">Nos sponsors</li></a>
@@ -110,10 +117,9 @@
             </footer>
         
       <!-- jQuery -->
-    <script src="../public/styles/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-            crossorigin="anonymous">
-    </script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      
 
     </body>
 
