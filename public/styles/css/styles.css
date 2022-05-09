@@ -1,3 +1,28 @@
 header{
     margin-bottom: 5%;
 };
+
+.strong{
+
+    font-weight:normal;
+
+};
+
+.h1{
+    font-family:  Koulen,'Courier New', Courier, monospace;
+    text-decoration: underline
+
+}
+
+.scale-utilities:hover{
+    transform:scale(1.25);
+};
+
+.badge-utils{
+
+        z-index: 1000;
+}
+.color-utils{
+
+    color: red
+};
