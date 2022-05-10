@@ -16,18 +16,21 @@ header{
 
 .scale-utilities:hover{
     transform:scale(1.25);
+    color:red;
 };
 
 .badge-utils{
 
         z-index: 1000;
 }
+
 .color-utils{
 
     color: red
 };
 
-.font-2em{
+.nav-utils:hover{
 
-    font-size:2em
+    font-size:x-large;
+    color:red;
 }
