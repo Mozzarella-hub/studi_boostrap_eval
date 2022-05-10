@@ -29,8 +29,16 @@ header{
     color: red
 };
 
-.nav-utils:hover{
+.font-utils{
 
-    font-size:x-large;
-    color:red;
+    font-size: 1.5 em
+}
+
+@media screen and (min-width: 900px) {
+
+.btn-artcile-qyery{
+    position: absolute;
+    left: 15%;
+    bottom: 15px;
+    }
 }
