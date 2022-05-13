@@ -15,7 +15,7 @@ header{
 }
 
 .scale-utilities:hover{
-    transform:scale(1.25);
+    transform:scale(1.05);
     color:red;
 };
 
